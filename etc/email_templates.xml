@@ -1,0 +1,3 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="sales_email_order_collection_template" label="Collection Template" file="collection.html" type="html" module="PixieMedia_SimpleCollection" area="frontend"/>
+</config>
