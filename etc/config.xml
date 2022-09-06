@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <sales_email>
+            <order>
+                <collection_template>sales_email_order_collection_template</collection_template>
+            </order>
+        </sales_email>
+        <carriers>
+            <collection>
+                <model>PixieMedia\SimpleCollection\Model\Carrier\Collection</model>
+                <active>0</active>
+                <title>Collection</title>
+                <name>Collection</name>
+                <price>0.00</price>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+            </collection>
+        </carriers>
+    </default>
+</config>
