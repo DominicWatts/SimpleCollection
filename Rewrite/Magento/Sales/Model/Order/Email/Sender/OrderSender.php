@@ -13,7 +13,6 @@ use Magento\Sales\Model\Order;
 
 class OrderSender extends \Magento\Sales\Model\Order\Email\Sender\OrderSender
 {
-
     const XML_PATH_EMAIL_COLLECTION_TEMPLATE = 'sales_email/order/collection_template';
 
     /**

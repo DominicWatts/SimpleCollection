@@ -11,13 +11,12 @@ namespace PixieMedia\SimpleCollection\Model\Carrier;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Quote\Model\Quote\Address\RateRequest;
-use Magento\Shipping\Model\Rate\Result;
+use Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory;
+use Magento\Quote\Model\Quote\Address\RateResult\MethodFactory;
 use Magento\Shipping\Model\Carrier\AbstractCarrier;
 use Magento\Shipping\Model\Carrier\CarrierInterface;
-use Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory;
-use Psr\Log\LoggerInterface;
 use Magento\Shipping\Model\Rate\ResultFactory;
-use Magento\Quote\Model\Quote\Address\RateResult\MethodFactory;
+use Psr\Log\LoggerInterface;
 
 class Collection extends AbstractCarrier implements CarrierInterface
 {
